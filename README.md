@@ -8,9 +8,9 @@ The goal of this project is to create a client website that has some key feature
 ## Screenshot
 ------
 
-![Screenshot](image/Screen Shot 2020-01-23 at 11.59.55 PM.png)
-![Screenshot](image/Screen Shot 2020-01-24 at 12.00.32 AM.png)
-![Screenshot](image/Screen Shot 2020-01-24 at 12.00.50 AM.png)
+![Screenshot](/image/screen1.png)
+![Screenshot](image/screen2.png)
+![Screenshot](image/screen3.png)
 
 ## Technology
 ------
