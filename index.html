@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-------JQuery------>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-------Bootstrap------>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-------Google Font----->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Fredericka+the+Great|Space+Mono&display=swap" rel="stylesheet">
+    <!-------CSS------>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-------Font Awesome----->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!----HEADER-->
+    <header class="container">
+        <div class="overlay"></div>
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="/video/Pexels Videos 1994819.mp4" type="video/mp4">
+            </video>
+            <!----Logo---->
+            <nav class="navbar">
+                <img class="navbar-brand" id="logo" src="image/logo-white.svg" alt="logo">
+            </nav>
+
+            <div class="container h-75">
+                <div class="d-flex h-100 text-center align-items-center">
+                  <div class="w-100 text-white">
+                    <h1>Welcome to</h1>
+                    <h4 class="sub typed"></h4>
+                    <button type="button" class="btn btn-dark btn-lg header-button rotate">BUTTON BUTTON</button>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    
+
+    <!----SECTION TWO---->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 nopadding">
+                    <div class="container text">
+                        <h2>Lorem ipsum</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Phasellus imperdiet, nulla et dictum interdum, nisi lorem 
+                            egestas vitae scel erisque enim ligula venenatis dolor.
+                            <span id="dots"></span><span id="more">
+                            Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. 
+                            Fusce luctus vestibulum augue ut aliquet. 
+                            Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. 
+                            In at libero sed nunc venenatis imperdiet sed ornare turpis. 
+                            Donec vitae dui eget tellus gravida venenatis. 
+                            Integer fringilla congue eros non fermentum. 
+                            Sed dapibus pulvinar nibh tempor porta.</span>
+                        </p>
+
+                        <button class="btn btn-link rotate" onclick="myFunction()" id="myBtn">> Lorem Ipsum</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 nopadding">
+                    <img id="img-section-2" src="image/img-1.jpg" alt="sunset-team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----SECTION THREE---->
+    <section class="container" id="sectionThree">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 nopadding">
+                    <div class="container text"id="title-three-container" >
+                        <h2 id="title-three">Lorem ipsum</h2>
+                        <button type="button" class="btn body-button rotate">BUTTON BUTTON</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----SECTION FOUR---->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 nopadding">
+                    <div class="container text">
+                        <h2 id="title-four">Lorem ipsum </br> dolor sit amet</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Phasellus imperdiet, nulla et dictum interdum, nisi lorem 
+                            egestas vitae scel erisque enim ligula venenatis dolor.
+                            <span id="dots2"></span><span id="more2">
+                            Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. 
+                            Fusce luctus vestibulum augue ut aliquet. 
+                            Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. 
+                            </span>
+                        </p>
+
+                        <button class="btn btn-link rotate" onclick="myFunction2()" id="myBtn2">> Lorem Ipsum</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 nopadding icon-part">
+                    <div class="icon-section">
+                        <div class="row">
+                            <div class="col">
+                                <div class="icon">
+                                    <img class="icon-img" src="image/home-expertise.svg" alt="sunset-team">
+                                </div>
+                                <h6>Lorem</h6>
+                            </div>
+                            <div class="col">
+                                <div class="icon">
+                                    <img class="icon-img" src="image/home-hygiene.svg" alt="sunset-team">
+                                </div>
+                                <h6>Lorem ipsum</h6>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col">
+                                <div class="icon">
+                                    <img class="icon-img" src="image/home-lab.svg" alt="sunset-team">
+                                </div>
+                                <h6>Lorem</h6>
+                            </div>
+                            <div class="col">
+                                <div class="icon">
+                                    <img class="icon-img" src="image/home-retention.svg" alt="sunset-team">
+                                </div>
+                                <h6>Lorem ipsum</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----SECTION FIVE---->
+    <section>
+        <div class="container" id="sectionFive">
+            <div class="row"> 
+                <div class="col-lg-6 nopadding"></div>
+                          
+                <div class="col-lg-6 nopadding">
+                    <div class="container text">
+                        <h2>Lorem ipsum</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Nam vel voluptatum, porro neque error, nemo unde odio aspernatur, 
+                            quae ad corrupti minima maiores? Deserunt id rem inventore laboriosam 
+                            voluptates placeat.
+                        </p>
+                        <button type="button" class="btn body-button rotate">BUTTON BUTTON</button>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!----SECTION SIX---->
+    <section>
+        <div class="container" id="carousel-container">
+            <div class="row">
+                <div class="col-lg-6 nopadding">
+                    <div class="container text" id="ratingSection">
+                        <h2 id="title-four">Lorem ipsum </br> DOLOR SIT AMET</h2>
+                        <span class="fa fa-star animated flip checked"></span>
+                        <span class="fa fa-star animated flip checked"></span>
+                        <span class="fa fa-star animated flip checked"></span>
+                        <span class="fa fa-star animated flip checked"></span>
+                        <span class="fa fa-star animated flip checked"></span> 
+                    </div>
+                </div>
+
+                <div id="carousel-container" class="col-lg-6 nopadding">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p class="pColor">John Doe 08/08/2019</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Nobis quis deserunt eligendi error similique obcaecati animi 
+                                    nam eum laborum a nostrum, ullam, at ab dolorem veritatis 
+                                    vel blanditiis. Est, voluptates?
+                                </p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <p class="pColor">John Doe 08/08/2019</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Aliquid numquam eius a quam perferendis itaque, dolorum tenetur 
+                                    tempore voluptatibus ratione ea repellat repellendus eligendi nostrum, 
+                                    dignissimos quidem. Minus, accusantium eligendi?
+                                </p>
+                            </div>
+
+                            <div class="carousel-item">
+                                <p class="pColor">John Doe 08/08/2019</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Aliquid numquam eius a quam perferendis itaque, dolorum tenetur 
+                                    tempore voluptatibus ratione ea repellat repellendus eligendi nostrum, 
+                                    dignissimos quidem. Minus, accusantium eligendi?
+                                </p>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                          </a>
+                    
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                          </a>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!----FOOTER---->
+    <footer>
+        <div class="container footerContainer" >
+            <p> Follow Us: </p>
+            <a href="https://www.facebook.com/RoosterGrin/"><i class="fab fa-instagram  animated pulse" style="font-size:48px; color:#663399"></i></a>
+            <a href="https://www.facebook.com/RoosterGrin/"><i class="fab fa-facebook-square animated pulse" style="font-size:48px; color:#663399"></i></a>
+        </div>
+    </footer>
+
+
+    <!-------typed.js------>
+    <script src="js/typed.min.js"></script>
+    <!-------Bootstrap------>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-------Js------>
+    <script src="js/script.js"></script>
+        
+</body>
+
+</html>
