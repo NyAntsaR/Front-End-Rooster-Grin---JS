@@ -30,4 +30,4 @@ The goal of this project is to create a client website that has some key feature
 ###### Deployment:
 - Heroku
 
-Here is the [Link](https://stark-shore-03051.herokuapp.com/)
+Here is the [Link](https://front-end-js.herokuapp.com/)
